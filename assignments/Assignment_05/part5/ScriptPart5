@@ -1,0 +1,128 @@
+Script started on 2020-03-01 23:08:52-0500
+]0;faisal@SpectreX360G: ~/temp/part5[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5[00m$ cd pics/
+]0;faisal@SpectreX360G: ~/temp/part5/pics[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/pics[00m$ ll
+total 4188
+drwxrwxrwx 1 faisal faisal   4096 Mar  1 23:08 [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal   4096 Mar  1 23:08 [34;42m..[0m/
+-rw-r----- 1 faisal faisal 578720 Mar  1 22:48 [01;35mpic1.png[0m
+-rw-r----- 1 faisal faisal 745965 Mar  1 22:48 [01;35mpic2.png[0m
+-rw-r----- 1 faisal faisal 793246 Mar  1 22:48 [01;35mpic3.png[0m
+-rw-r----- 1 faisal faisal 700980 Mar  1 22:48 [01;35mpic4.png[0m
+-rw-r----- 1 faisal faisal 781012 Mar  1 22:48 [01;35mpic5.png[0m
+-rw-r----- 1 faisal faisal 671790 Mar  1 22:48 [01;35mpic6.png[0m
+]0;faisal@SpectreX360G: ~/temp/part5/pics[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/pics[00m$ llcd pics/ll[Kcd part3/mkdir part3[6Pcd ..[3Pllcat ScriptPart02 ll[Kscript -qcat typescript ls[Kpwdcd [1Plscd Assignment_05/ls[Kcd Assignment_05/ls[Kcd pwd[1Plscat typescript [6Pscript -qll[Kcat ScriptPart02 ll[Kcd ..mkdir part3[2Pcd part3/ll[Kcd pics/ll[K[Kconvert -delay 100 -loop 1[K2 *.outpit[K[KutGi[KIG[KF[C[C[C[C[C[C[C[C[CPGIFiGIFcGIF[C[C[C.gif
+convert-im6.q16: no images defined `*.outputPicGIF.gif' @ error/convert.c/ConvertImageCommand/3258.
+]0;faisal@SpectreX360G: ~/temp/part5/pics[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/pics[00m$ convert -delay 100 -loop 2 *.outputPicGIF.gif[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[Kcd pics/ll[Kconvert -delay 100 -loop 2 *.outputPicGIF.gif[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kconvert -delay 100 -loop 2 *.outputPicGIF.gif[C[CpoutputPicGIF.gifnoutputPicGIF.gifgoutputPicGIF.gif outputPicGIF.gif[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;faisal@SpectreX360G: ~/temp/part5/pics[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/pics[00m$ ll
+total 7772
+drwxrwxrwx 1 faisal faisal    4096 Mar  1 23:11 [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal    4096 Mar  1 23:08 [34;42m..[0m/
+-rw-rw-rw- 1 faisal faisal 3617482 Mar  1 23:11 [01;35moutputPicGIF.gif[0m
+-rw-r----- 1 faisal faisal  578720 Mar  1 22:48 [01;35mpic1.png[0m
+-rw-r----- 1 faisal faisal  745965 Mar  1 22:48 [01;35mpic2.png[0m
+-rw-r----- 1 faisal faisal  793246 Mar  1 22:48 [01;35mpic3.png[0m
+-rw-r----- 1 faisal faisal  700980 Mar  1 22:48 [01;35mpic4.png[0m
+-rw-r----- 1 faisal faisal  781012 Mar  1 22:48 [01;35mpic5.png[0m
+-rw-r----- 1 faisal faisal  671790 Mar  1 22:48 [01;35mpic6.png[0m
+]0;faisal@SpectreX360G: ~/temp/part5/pics[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/pics[00m$ cd ..
+]0;faisal@SpectreX360G: ~/temp/part5[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5[00m$ cd vid/
+]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ ll
+total 108864
+drwxrwxrwx 1 faisal faisal     4096 Mar  1 23:08 [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal     4096 Mar  1 23:08 [34;42m..[0m/
+-rw-r----- 1 faisal faisal 63851206 Mar  1 22:25 [01;35m308-1080.mp4[0m
+-rw-r----- 1 faisal faisal 45889624 Mar  1 22:25 [01;35mvideo.mp4[0m
+]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ ffmpeg -i input.flv -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.0000 output.gif[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000[1P output.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 [1Poutput.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 o[1Putput.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 ou[1Ptput.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 out[1Pput.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 outp[1Put.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 outpu[1Pt.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C[C -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 output[1P.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 output.[1Pgif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[Cv -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 output.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[Ci -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 output.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C[Cd -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 output.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Ce -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 output.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Co -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 output.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 output.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 output.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 output.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4 -ss 00:00:00.000 -pix_fmt rgb24 -r 10 -s 320x240 -t 00:00:10.000 output.gif[A]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[CV.gifi.gifd.gifG.gifI.gifF.gif[C[C[C[C
+ffmpeg version 3.4.6-0ubuntu0.18.04.1 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.3.0-16ubuntu3)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'video.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41isomavc1
+    creation_time   : 2019-10-10T08:39:18.000000Z
+  Duration: 00:01:07.82, start: 0.000000, bitrate: 5413 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080, 5155 kb/s, 23.98 fps, 23.98 tbr, 24k tbn, 48k tbc (default)
+    Metadata:
+      creation_time   : 2019-10-10T08:39:18.000000Z
+      handler_name    : L-SMASH Video Handler
+      encoder         : AVC Coding
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 253 kb/s (default)
+    Metadata:
+      creation_time   : 2019-10-10T08:39:18.000000Z
+      handler_name    : L-SMASH Audio Handler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> gif (native))
+Press [q] to stop, [?] for help
+[48;5;0m[38;5;226mIncompatible pixel format 'rgb24' for codec 'gif', auto-selecting format 'rgb8'
+[0mOutput #0, gif, to 'outputVidGIF.gif':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42mp41isomavc1
+    encoder         : Lavf57.83.100
+    Stream #0:0(und): Video: gif, rgb8, 320x240, q=2-31, 200 kb/s, 10 fps, 100 tbn, 10 tbc (default)
+    Metadata:
+      creation_time   : 2019-10-10T08:39:18.000000Z
+      handler_name    : L-SMASH Video Handler
+      encoder         : Lavc57.107.100 gif
+frame=   14 fps=0.0 q=-0.0 size=     257kB time=00:00:01.31 bitrate=1605.8kbits/s dup=0 drop=16 speed= 2.6x    frame=   33 fps= 33 q=-0.0 size=     769kB time=00:00:03.21 bitrate=1961.9kbits/s dup=0 drop=43 speed=3.18x    frame=   54 fps= 36 q=-0.0 size=    1537kB time=00:00:05.31 bitrate=2370.9kbits/s dup=0 drop=72 speed=3.51x    frame=   73 fps= 36 q=-0.0 size=    2049kB time=00:00:07.21 bitrate=2327.8kbits/s dup=0 drop=99 speed=3.57x    frame=   94 fps= 37 q=-0.0 size=    2561kB time=00:00:09.31 bitrate=2253.3kbits/s dup=0 drop=128 speed=3.69x    frame=  100 fps= 37 q=-0.0 Lsize=    2988kB time=00:00:09.91 bitrate=2470.3kbits/s dup=0 drop=138 speed=3.62x    
+video:2987kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.052346%
+]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ ll
+total 114112
+drwxrwxrwx 1 faisal faisal     4096 Mar  1 23:12 [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal     4096 Mar  1 23:08 [34;42m..[0m/
+-rw-r----- 1 faisal faisal 63851206 Mar  1 22:25 [01;35m308-1080.mp4[0m
+-rw-rw-rw- 1 faisal faisal  3060123 Mar  1 23:12 [01;35moutputVidGIF.gif[0m
+-rw-r----- 1 faisal faisal 45889624 Mar  1 22:25 [01;35mvideo.mp4[0m
+]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ rm 308-1080.mp4 
+]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ cd..
+cd..: command not found
+]0;faisal@SpectreX360G: ~/temp/part5/vid[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5/vid[00m$ cd ..
+]0;faisal@SpectreX360G: ~/temp/part5[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5[00m$ script -q
+]0;faisal@SpectreX360G: ~/temp/part5[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5[00m$ cd ..
+]0;faisal@SpectreX360G: ~/temp[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp[00m$ ll
+total 24
+drwxrwxrwx 1 faisal faisal  4096 Mar  1 22:06 [0m[34;42m.[0m/
+drwxr-xr-x 1 faisal faisal  4096 Mar  1 22:20 [01;34m..[0m/
+-rw-rw-rw- 1 faisal faisal  4381 Mar  1 18:26 calander.txt
+-rw-rw-rw- 1 faisal faisal 14743 Mar  1 20:17 index.html
+drwxrwxrwx 1 faisal faisal  4096 Mar  1 20:15 [34;42mpart1[0m/
+drwxrwxrwx 1 faisal faisal  4096 Mar  1 21:34 [34;42mpart2[0m/
+drwxrwxrwx 1 faisal faisal  4096 Mar  1 21:53 [34;42mpart3[0m/
+drwxrwxrwx 1 faisal faisal  4096 Mar  1 22:06 [34;42mpart4[0m/
+drwxrwxrwx 1 faisal faisal  4096 Mar  1 23:13 [34;42mpart5[0m/
+]0;faisal@SpectreX360G: ~/temp[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp[00m$ rm cala[Kander.txt index.html 
+]0;faisal@SpectreX360G: ~/temp[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp[00m$ ll
+total 0
+drwxrwxrwx 1 faisal faisal 4096 Mar  1 23:13 [0m[34;42m.[0m/
+drwxr-xr-x 1 faisal faisal 4096 Mar  1 22:20 [01;34m..[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar  1 20:15 [34;42mpart1[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar  1 21:34 [34;42mpart2[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar  1 21:53 [34;42mpart3[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar  1 22:06 [34;42mpart4[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar  1 23:13 [34;42mpart5[0m/
+]0;faisal@SpectreX360G: ~/temp[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp[00m$ mv * /home/faisal/Ci[KISC3140/home/A[K[K[K[K[K[KAss[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd 
+]0;faisal@SpectreX360G: ~[01;32mfaisal@SpectreX360G[00m:[01;34m~[00m$ cd Cisc[K[K[KISC3140/
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ ls
+[0m[34;42massignments[0m  [34;42mclass[0m  [34;42mhome[0m
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ cd assignments/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ ll
+total 1316
+drwxrwxrwx 1 faisal faisal   4096 Feb 24 21:31  [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal   4096 Feb 24 20:59  [34;42m..[0m/
+-rw-rw-rw- 1 faisal faisal  17634 Feb 24 20:59 'Assignment 3.docx'
+drwxrwxrwx 1 faisal faisal   4096 Mar  1 22:20  [34;42mAssignment_05[0m/
+-rw-rw-rw- 1 faisal faisal 764293 Feb 24 20:59  Bug_Report.docx
+-rw-rw-rw- 1 faisal faisal 518331 Feb 24 20:59  Comp

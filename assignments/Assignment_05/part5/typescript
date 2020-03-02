@@ -1,0 +1,51 @@
+Script started on 2020-03-01 23:13:03-0500
+]0;faisal@SpectreX360G: ~/temp/part5[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp/part5[00m$ cd ..
+]0;faisal@SpectreX360G: ~/temp[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp[00m$ ll
+total 24
+drwxrwxrwx 1 faisal faisal  4096 Mar  1 22:06 [0m[34;42m.[0m/
+drwxr-xr-x 1 faisal faisal  4096 Mar  1 22:20 [01;34m..[0m/
+-rw-rw-rw- 1 faisal faisal  4381 Mar  1 18:26 calander.txt
+-rw-rw-rw- 1 faisal faisal 14743 Mar  1 20:17 index.html
+drwxrwxrwx 1 faisal faisal  4096 Mar  1 20:15 [34;42mpart1[0m/
+drwxrwxrwx 1 faisal faisal  4096 Mar  1 21:34 [34;42mpart2[0m/
+drwxrwxrwx 1 faisal faisal  4096 Mar  1 21:53 [34;42mpart3[0m/
+drwxrwxrwx 1 faisal faisal  4096 Mar  1 22:06 [34;42mpart4[0m/
+drwxrwxrwx 1 faisal faisal  4096 Mar  1 23:13 [34;42mpart5[0m/
+]0;faisal@SpectreX360G: ~/temp[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp[00m$ rm cala[Kander.txt index.html 
+]0;faisal@SpectreX360G: ~/temp[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp[00m$ ll
+total 0
+drwxrwxrwx 1 faisal faisal 4096 Mar  1 23:13 [0m[34;42m.[0m/
+drwxr-xr-x 1 faisal faisal 4096 Mar  1 22:20 [01;34m..[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar  1 20:15 [34;42mpart1[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar  1 21:34 [34;42mpart2[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar  1 21:53 [34;42mpart3[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar  1 22:06 [34;42mpart4[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar  1 23:13 [34;42mpart5[0m/
+]0;faisal@SpectreX360G: ~/temp[01;32mfaisal@SpectreX360G[00m:[01;34m~/temp[00m$ mv * /home/faisal/Ci[KISC3140/home/A[K[K[K[K[K[KAss[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd 
+]0;faisal@SpectreX360G: ~[01;32mfaisal@SpectreX360G[00m:[01;34m~[00m$ cd Cisc[K[K[KISC3140/
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ ls
+[0m[34;42massignments[0m  [34;42mclass[0m  [34;42mhome[0m
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ cd assignments/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ ll
+total 1316
+drwxrwxrwx 1 faisal faisal   4096 Feb 24 21:31  [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal   4096 Feb 24 20:59  [34;42m..[0m/
+-rw-rw-rw- 1 faisal faisal  17634 Feb 24 20:59 'Assignment 3.docx'
+drwxrwxrwx 1 faisal faisal   4096 Mar  1 22:20  [34;42mAssignment_05[0m/
+-rw-rw-rw- 1 faisal faisal 764293 Feb 24 20:59  Bug_Report.docx
+-rw-rw-rw- 1 faisal faisal 518331 Feb 24 20:59  Company_Info.docx
+-rw-rw-rw- 1 faisal faisal  14209 Feb 24 20:59 'Group Project_A.docx'
+-rw-rw-rw- 1 faisal faisal  13053 Feb 24 20:59 'Group Project_B.docx'
+-rw-rw-rw- 1 faisal faisal   5948 Feb 24 20:59  config.js
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ cd as[K[KAssignment_05/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_05[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_05[00m$ ll
+total 0
+drwxrwxrwx 1 faisal faisal 4096 Mar  1 22:20 [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal 4096 Feb 24 21:31 [34;42m..[0m/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_05[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_05[00m$ cp /home/faisal/temp/* .
+cp: -r not specified; omitting directory '/home/faisal/temp/part1'
+cp: -r not specified; omitting directory '/home/faisal/temp/part2'
+cp: -r not specified; omitting directory '/home/faisal/temp/part3'
+cp: -r not specified; omitting directory '/home/faisal/temp/part4'
+cp: -r not specified; omitting directory '/home/faisal/temp/part5'
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_05[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_05[00m$ cp /home/faisal/temp/* .[1@-[1@r[1@ [C[C[C[C[C[C[C[C[C
