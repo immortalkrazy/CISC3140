@@ -1,0 +1,544 @@
+Script started on 2020-03-12 00:46:03-0400
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ ls
+[0m[34;42mbranches[0m  [34;42mtags[0m  [34;42mtrunk[0m  typescript
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ lsexitssh faisal@192.168.121.105exit[K[2Pls[K[Kscript -q
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ ls
+[0m[34;42mbranches[0m  [34;42mtags[0m  [34;42mtrunk[0m  typescript
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ rm [K[K[Kcd..
+cd..: command not found
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ cd.
+
+
+Command 'cd.' not found, did you mean:
+
+  command 'cde' from deb cde
+  command 'cd5' from deb cd5
+  command 'cdv' from deb codeville
+  command 'cdp' from deb irpas
+  command 'cdi' from deb cdo
+  command 'cdb' from deb tinycdb
+  command 'cdw' from deb cdw
+  command 'cdo' from deb cdo
+
+Try: sudo apt install <deb name>
+
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ 
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ cd ..
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ cd ..
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ ls
+'Assignment 3.docx'   [0m[34;42mAssignment_06[0m   Bug_Report.docx    'Group Project_A.docx'   config.js
+ [34;42mAssignment_05[0m        [34;42mAssignment_07[0m   Company_Info.docx  'Group Project_B.docx'
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ cd ..
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ ls
+assignment7.txt  [0m[34;42massignments[0m  [34;42mclass[0m  [34;42mhome[0m
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ cat assignment7.txt 
+Script started on 2020-03-11 23:51:25-0400
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ ls
+assignment7.txt  [0m[34;42massignments[0m  [34;42mclass[0m  [34;42mhome[0m
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ cd assignments/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ ls
+'Assignment 3.docx'   [0m[34;42mAssignment_06[0m     Company_Info.docx      'Group Project_B.docx'
+ [34;42mAssignment_05[0m        Bug_Report.docx  'Group Project_A.docx'   config.js
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ c[Kmkdir Assignment_07
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ mkdir SVN
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ cd SVN
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ ll
+total 0
+drwxrwxrwx 1 faisal faisal 4096 Mar 11 23:52 [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 11 23:52 [34;42m..[0m/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ echi[Ko "hek[Kllo" > test1.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ echo "hello" > test1.txt[C[1@ [1@w[1@o[1@r[1@l[1@d[C[C[C[C[C[C[C[C[C[1P.txt2.txt[C[C[C[C
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ touch main[K[K[K[KMain.java
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ touch method.java
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ ssh faisal@192.168.121.129
+The authenticity of host '192.168.121.129 (192.168.121.129)' can't be established.
+ECDSA key fingerprint is SHA256:kAPGFPnUmlsAB8WWalPDYNRhaQ1dScEAGYcuvKuTfhI.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.121.129' (ECDSA) to the list of known hosts.
+faisal@192.168.121.129's password: 
+Linux RaspberryPiZeroFTP 4.19.66+ #1253 Thu Aug 15 11:37:30 BST 2019 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Mar 11 21:51:46 2020 from 192.168.121.129
+]0;faisal@RaspberryPiZeroFTP: ~[01;32mfaisal@RaspberryPiZeroFTP[00m:[01;34m~ $[00m ll
+-bash: ll: command not found
+]0;faisal@RaspberryPiZeroFTP: ~[01;32mfaisal@RaspberryPiZeroFTP[00m:[01;34m~ $[00m ls
+[0m[01;34mSVN[0m  [01;34mtestFolder[0m
+]0;faisal@RaspberryPiZeroFTP: ~[01;32mfaisal@RaspberryPiZeroFTP[00m:[01;34m~ $[00m cd SVN/
+]0;faisal@RaspberryPiZeroFTP: ~/SVN[01;32mfaisal@RaspberryPiZeroFTP[00m:[01;34m~/SVN $[00m ls
+[0m[01;34mrepos[0m
+]0;faisal@RaspberryPiZeroFTP: ~/SVN[01;32mfaisal@RaspberryPiZeroFTP[00m:[01;34m~/SVN $[00m cd repos/
+]0;faisal@RaspberryPiZeroFTP: ~/SVN/repos[01;32mfaisal@RaspberryPiZeroFTP[00m:[01;34m~/SVN/repos $[00m ls
+[0m[01;34mconf[0m  [01;34mdb[0m  format  [01;34mhooks[0m  [01;34mlocks[0m  README.txt
+]0;faisal@RaspberryPiZeroFTP: ~/SVN/repos[01;32mfaisal@RaspberryPiZeroFTP[00m:[01;34m~/SVN/repos $[00m exit
+logout
+Connection to 192.168.121.129 closed.
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ svn lsi[K[K[Klist svn+ssh://192.168.121.129/home/faisal/SVN/repos
+faisal@192.168.121.129's password: 
+desktopProject/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ ls
+Main.java  method.java  test1.txt  test2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ mkdir laptopProject
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ mv 8[K* laptopProject/
+mv: cannot move 'laptopProject' to a subdirectory of itself, 'laptopProject/laptopProject'
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ mv * laptopProject/. laptopProject/* laptopProject/
+mv: cannot stat '*.*': No such file or directory
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ ls
+[0m[34;42mlaptopProject[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ cd laptopProject/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN/laptopProject[00m$ ll[Ks
+Main.java  method.java  test1.txt  test2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN/laptopProject[00m$ cd 
+]0;faisal@SpectreX360G: ~[01;32mfaisal@SpectreX360G[00m:[01;34m~[00m$ ls
+[0m[34;42mCISC3140[0m          [01;32mOUTconnectMINT.sh[0m  [34;42mPython[0m      [01;36masst[0m           [01;32mconnectMINT.sh[0m  [01;36mhello.sh[0m
+[01;32mOUTconnectGIT.sh[0m  [01;32mOUTconnectSVN.sh[0m   [34;42mTestFolder[0m  [01;32mconnectGIT.sh[0m  [01;32mconnectSVN.sh[0m   [34;42mtemp[0m
+]0;faisal@SpectreX360G: ~[01;32mfaisal@SpectreX360G[00m:[01;34m~[00m$ lscd [1Plscd laptopProject/ls[Kmv *.* laptopProject/[2P laptopProject/kdir laptopProjectls[Ksvn list svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[1P svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CC svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CI svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CS svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CC svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4 svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psvn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pvn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pssh://192.168.121.129/home/faisal/SVN/repos[C[1Ph://192.168.121.129/home/faisal/SVN/repos[1Ph://192.168.121.129/home/faisal/SVN/repos[1P://192.168.121.129/home/faisal/SVN/repos[1P//192.168.121.129/home/faisal/SVN/repos[C[1P192.168.121.129/home/faisal/SVN/repos[1P192.168.121.129/home/faisal/SVN/repos[1P92.168.121.129/home/faisal/SVN/repos[1P2.168.121.129/home/faisal/SVN/repos[1P.168.121.129/home/faisal/SVN/repos[1P168.121.129/home/faisal/SVN/repos[1P68.121.129/home/faisal/SVN/repos[1P8.121.129/home/faisal/SVN/repos[1P.121.129/home/faisal/SVN/repos[1P121.129/home/faisal/SVN/repos[1P21.129/home/faisal/SVN/repos[1P1.129/home/faisal/SVN/repos[1P.129/home/faisal/SVN/repos[1P129/home/faisal/SVN/repos[1P29/home/faisal/SVN/repos[1P9/home/faisal/SVN/repos[1P/home/faisal/SVN/repos[1Phome/faisal/SVN/repos[1Pome/faisal/SVN/repos[1Pme/faisal/SVN/repos[1Pe/faisal/SVN/repos[1P/faisal/SVN/repos[1Pfaisal/SVN/repos[1Paisal/SVN/repos[1Pisal/SVN/repos[1Psal/SVN/repos[1Pal/SVN/repos[1Pl/SVN/repos[1P/SVN/repos[1PSVN/repos[1PVN/repos[1PN/repos[1P/repos[1Prepos[1Pepos[1Ppos[1Pos[1Ps[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksvn import CISC3140/assignments/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd Ci[KISC3140/
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ ls
+assignment7.txt  [0m[34;42massignments[0m  [34;42mclass[0m  [34;42mhome[0m
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ cd assignments/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ ls
+'Assignment 3.docx'   [0m[34;42mAssignment_06[0m   Bug_Report.docx    'Group Project_A.docx'   [34;42mSVN[0m
+ [34;42mAssignment_05[0m        [34;42mAssignment_07[0m   Company_Info.docx  'Group Project_B.docx'   config.js
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ mv -r SVN/[K Assignment_07/
+mv: invalid option -- 'r'
+Try 'mv --help' for more information.
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ mv -r SVN Assignment_07/[C[1P[1P[1@-[1@R
+mv: invalid option -- 'R'
+Try 'mv --help' for more information.
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ ls
+'Assignment 3.docx'   [0m[34;42mAssignment_06[0m   Bug_Report.docx    'Group Project_A.docx'   [34;42mSVN[0m
+ [34;42mAssignment_05[0m        [34;42mAssignment_07[0m   Company_Info.docx  'Group Project_B.docx'   config.js
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ cd SVN/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ ll
+total 0
+drwxrwxrwx 1 faisal faisal 4096 Mar 11 23:56 [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 11 23:52 [34;42m..[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 11 23:56 [34;42mlaptopProject[0m/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ cd laptopProject/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN/laptopProject[00m$ ll
+total 0
+drwxrwxrwx 1 faisal faisal 4096 Mar 11 23:56 [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 11 23:56 [34;42m..[0m/
+-rw-rw-rw- 1 faisal faisal    0 Mar 11 23:53 Main.java
+-rw-rw-rw- 1 faisal faisal    0 Mar 11 23:53 method.java
+-rw-rw-rw- 1 faisal faisal    6 Mar 11 23:52 test1.txt
+-rw-rw-rw- 1 faisal faisal   12 Mar 11 23:52 test2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN/laptopProject[00m$ cd ..
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ cd s[K[K[K[Kcd ..
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ cd Assignment_07/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ ll
+total 0
+drwxrwxrwx 1 faisal faisal 4096 Mar 11 23:51 [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 11 23:52 [34;42m..[0m/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ cd 
+]0;faisal@SpectreX360G: ~[01;32mfaisal@SpectreX360G[00m:[01;34m~[00m$ sudo[K[Kdo mv -r CISC3140/assignments/s[KSVN/[K /home/fa[K[Kfaisal/[C[C[C[C[C[C[C[C[CCi[KISC3140/assignments/Assignment-07/
+[sudo] password for faisal: 
+Sorry, try again.
+[sudo] password for faisal: 
+mv: invalid option -- 'r'
+Try 'mv --help' for more information.
+]0;faisal@SpectreX360G: ~[01;32mfaisal@SpectreX360G[00m:[01;34m~[00m$ sudo mv -r CISC3140/assignments/SVN /home/faisal/CISC3140/assignments/Assignment-07/[1P[1P[1P
+]0;faisal@SpectreX360G: ~[01;32mfaisal@SpectreX360G[00m:[01;34m~[00m$ cd CISC3140/assignments/Assignment-07/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment-07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment-07[00m$ ls
+[0m[34;42mlaptopProject[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment-07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment-07[00m$ cd laptopProject/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment-07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment-07/laptopProject[00m$ ls
+Main.java  method.java  test1.txt  test2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment-07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment-07/laptopProject[00m$ cd
+]0;faisal@SpectreX360G: ~[01;32mfaisal@SpectreX360G[00m:[01;34m~[00m$ pwd
+/home/faisal
+]0;faisal@SpectreX360G: ~[01;32mfaisal@SpectreX360G[00m:[01;34m~[00m$ gi[K[Ksvn import CISC3140/assignments/Assignment07[K[K_07/lapto[K[K[K[K[Klaptop[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+assignment7.txt  assignments/     
+]0;faisal@SpectreX360G: ~[01;32mfaisal@SpectreX360G[00m:[01;34m~[00m$ svn import CISC3140/assignmentass[K[K[Ks/Assignment_07/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ci[K[K[Kpwd[1Pcdlscd laptopProject/ls[Kcd CISC3140/assignments/Assignment-07/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment-07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment-07[00m$ ls
+[0m[34;42mlaptopProject[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment-07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment-07[00m$ cd laptopProject/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment-07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment-07/laptopProject[00m$ ls
+Main.java  method.java  test1.txt  test2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment-07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment-07/laptopProject[00m$ pwd
+/home/faisal/CISC3140/assignments/Assignment-07/laptopProject
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment-07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment-07/laptopProject[00m$ cd
+]0;faisal@SpectreX360G: ~[01;32mfaisal@SpectreX360G[00m:[01;34m~[00m$ svn import /home/faisal/Ci[KISC3140/assignments/Assignment_07/laptopProject svn+ssh:/192.168.121.129 /home/pi/[K[K[Kfaisa.[K/[Kl/SVN/repos/laptopProject
+svn: E205000: Try 'svn help import' for more information
+svn: E205000: Invalid URL 'svn+ssh:/192.168.121.129/home/faisal/SVN/repos/laptopProject'
+]0;faisal@SpectreX360G: ~[01;32mfaisal@SpectreX360G[00m:[01;34m~[00m$ svn import /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh:/192.168.121.129//home/faisal/SVN/repos/laptopProject[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/192.168.121.129/home/faisal/SVN/repos/laptopProject[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;53H(B[0;7m[ Reading File ](B[m[28;59H(B[0;7m 4 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                        svn-commit.tmp                                                  [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[4d[39;49m(B[m--This line, and those below, will be ignored--[6dA    /home/faisal/CISC3140/assignments/Assignment_07/laptopProject[3d[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[3di[?12l[?25h[?25ln[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lm[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25l7[4;27r8[4dM[1;30r[4;1H[?12l[?25h[?25l[28d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                                           [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;63H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Get Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m To Files[28d(B[0;7mFile Name to Write: svn-commit.tmp                           (B[m[28;35H[?12l[?25h[?25l[K[1;119H[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 5 lines ](B[m[J[30;120H[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>faisal@192.168.121.129's password: 
+faisal@192.168.121.129's password: 
+svn: E000002: Can't stat '/home/faisal/CISC3140/assignments/Assignment_07/laptopProject': No such file or directory
+svn: E000002: Your commit message was left in a temporary file:
+svn: E000002:    'svn-commit.tmp'
+]0;faisal@SpectreX360G: ~[01;32mfaisal@SpectreX360G[00m:[01;34m~[00m$ cd /home/faisal/CISC3140/assignments/Assignment_07/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ ls
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ cp[K[Kcp /home/pi[K[Kfaisal/asst/[K[K[K[K[KCISC3140/assignments/SV[K[Ksn[K[KSV[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ ls
+'Assignment 3.docx'   [0m[34;42mAssignment_05[0m   [34;42mAssignment_07[0m     Company_Info.docx      'Group Project_B.docx'
+ [34;42mAssignment-07[0m        [34;42mAssignment_06[0m   Bug_Report.docx  'Group Project_A.docx'   config.js
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ cd ..
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ ls
+assignment7.txt  [0m[34;42massignments[0m  [34;42mclass[0m  [34;42mhome[0m
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ cd assignments/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ ls
+'Assignment 3.docx'   [0m[34;42mAssignment_05[0m   [34;42mAssignment_07[0m     Company_Info.docx      'Group Project_B.docx'
+ [34;42mAssignment-07[0m        [34;42mAssignment_06[0m   Bug_Report.docx  'Group Project_A.docx'   config.js
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ ll
+total 1316
+drwxrwxrwx 1 faisal faisal   4096 Mar 12 00:02  [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal   4096 Mar 11 23:51  [34;42m..[0m/
+-rw-rw-rw- 1 faisal faisal  17634 Feb 24 20:59 'Assignment 3.docx'
+drwxrwxrwx 1 faisal faisal   4096 Mar 11 23:56  [34;42mAssignment-07[0m/
+drwxrwxrwx 1 faisal faisal   4096 Mar  1 23:15  [34;42mAssignment_05[0m/
+drwxrwxrwx 1 faisal faisal   4096 Mar  9 00:19  [34;42mAssignment_06[0m/
+drwxrwxrwx 1 faisal faisal   4096 Mar 11 23:51  [34;42mAssignment_07[0m/
+-rw-rw-rw- 1 faisal faisal 764293 Feb 24 20:59  Bug_Report.docx
+-rw-rw-rw- 1 faisal faisal 518331 Feb 24 20:59  Company_Info.docx
+-rw-rw-rw- 1 faisal faisal  14209 Feb 24 20:59 'Group Project_A.docx'
+-rw-rw-rw- 1 faisal faisal  13053 Feb 24 20:59 'Group Project_B.docx'
+-rw-rw-rw- 1 faisal faisal   5948 Feb 24 20:59  config.js
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ cd ass[K[K[KAssignment-07/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment-07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment-07[00m$ ls
+[0m[34;42mlaptopProject[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment-07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment-07[00m$ cd ..
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ cd ad[Kss[K[K[KAssignment-07/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment-07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment-07[00m$ ls
+[0m[34;42mlaptopProject[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment-07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment-07[00m$ mv laptopProject/[K /home/faisal/[K[K[K[K[K[K[K[K[K[K[K[K[K../Assignment_07/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment-07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment-07[00m$ ll
+total 0
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:12 [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:02 [34;42m..[0m/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment-07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment-07[00m$ cd ..
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ rm ass[K[K[KAssignment-07/[K
+rm: cannot remove 'Assignment-07': Is a directory
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ rm Assignment-07[C-Assignment-07rAssignment-07 Assignment-07
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ ls
+'Assignment 3.docx'   [0m[34;42mAssignment_06[0m   Bug_Report.docx    'Group Project_A.docx'   config.js
+ [34;42mAssignment_05[0m        [34;42mAssignment_07[0m   Company_Info.docx  'Group Project_B.docx'
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ lsrm -r Assignment-07[3PAssignment-07cd ..[K[3Pllmv laptopProject ../Assignment_07/ls[Kcd Assignment-07/..[K[3Plscd Assignment-07/ll[Kscd assignments/ls[Kcd ..[3Plscd ..[3Plscd /home/faisal/CISC3140/assignments/Assignment_07/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csvn import /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn++ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject
+[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;53H(B[0;7m[ Reading File ](B[m[28;59H(B[0;7m 4 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                        svn-commit.tmp                                                  [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[4d[39;49m(B[m--This line, and those below, will be ignored--[6dA    /home/faisal/CISC3140/assignments/Assignment_07/laptopProject[3d[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[3di[?12l[?25h[?25ln[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lm[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l7[4;27r8[4dM[1;30r[4;1H[?12l[?25h[?25l[28d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                                           [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;63H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Get Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m To Files[28d(B[0;7mFile Name to Write: svn-commit.tmp                           (B[m[28;35H[?12l[?25h[?25l[K[1;119H[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 5 lines ](B[m[J[30;120H[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>faisal@192.168.121.129's password: 
+faisal@192.168.121.129's password: 
+Adding         Assignment_07/laptopProject/Main.java
+Adding         Assignment_07/laptopProject/method.java
+Adding         Assignment_07/laptopProject/test1.txt
+Adding         Assignment_07/laptopProject/test2.txt
+Committing transaction...
+Committed revision 2.
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ svn import /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn++ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[Als[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm -r Assignment-07[3PAssignment-07cd ..[K[3Pllmv laptopProject ../Assignment_07/ls[Kcd Assignment-07/..[K[3Plscd Assignment-07/ll[Kscd assignments/ls[Kcd ..[3Plscd ..[3Plscd /home/faisal/CISC3140/assignments/Assignment_07/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csvn import /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn++ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[C[C[C[C[C[C[1P192.168.121.129/home/faisal/SVN/repos/laptopProject[Acd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[1Plscd laptopProject/ls[Kcd CISC3140/assignments/Assignment-07/pwd[K[1Pcdlscd laptopProject/ls[Kcd CISC3140/assignments/Assignment-07/sudo mv CISC3140/assignments/SVN /home/faisal/CISC3140/assignments/Assignmentt-07/[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C-r CISC3140/assignments/SVN /home/faisal/CISC3140/assignments/Assignment-07/[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ cd [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pllcd Assignment_07/..[K[3Pllcd laptopProject/ll[Kcd SVN/ls[Kmv -R SVN Assignment_07/r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd assignments/ls[Kcd CISC3140/ls[Kcd [1Plscd laptopProject/ls[Kmv *.* laptopProject/[2P laptopProject/kdir laptopProjectls[Ksvn list svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Psh faisal@192.168.121.129[9Ptouch method.javassh faisal@192.168.121.129vn list svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Psh faisal@192.168.121.129vn list svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Psh faisal@192.168.121.129
+faisal@192.168.121.129's password: 
+Linux RaspberryPiZeroFTP 4.19.66+ #1253 Thu Aug 15 11:37:30 BST 2019 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Mar 11 23:54:14 2020 from 192.168.121.111
+]0;faisal@RaspberryPiZeroFTP: ~[01;32mfaisal@RaspberryPiZeroFTP[00m:[01;34m~ $[00m ls
+[0m[01;34mSVN[0m  [01;34mtestFolder[0m
+]0;faisal@RaspberryPiZeroFTP: ~[01;32mfaisal@RaspberryPiZeroFTP[00m:[01;34m~ $[00m cd SVn[KN/
+]0;faisal@RaspberryPiZeroFTP: ~/SVN[01;32mfaisal@RaspberryPiZeroFTP[00m:[01;34m~/SVN $[00m ksl[K[K[Kls
+[0m[01;34mrepos[0m
+]0;faisal@RaspberryPiZeroFTP: ~/SVN[01;32mfaisal@RaspberryPiZeroFTP[00m:[01;34m~/SVN $[00m cd repos/
+]0;faisal@RaspberryPiZeroFTP: ~/SVN/repos[01;32mfaisal@RaspberryPiZeroFTP[00m:[01;34m~/SVN/repos $[00m ls
+[0m[01;34mconf[0m  [01;34mdb[0m  format  [01;34mhooks[0m  [01;34mlocks[0m  README.txt
+]0;faisal@RaspberryPiZeroFTP: ~/SVN/repos[01;32mfaisal@RaspberryPiZeroFTP[00m:[01;34m~/SVN/repos $[00m exit
+logout
+Connection to 192.168.121.129 closed.
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ ssh faisal@192.168.121.129vn import /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn++ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[Als[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm -r Assignment-07[3PAssignment-07cd ..[K[3Pllmv laptopProject ../Assignment_07/ls[Kcd Assignment-07/..[K[3Plscd Assignment-07/ll[Kscd assignments/ls[Kcd ..[3Plscd ..[3Plscd /home/faisal/CISC3140/assignments/Assignment_07/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csvn import /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn++ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[A[25Pcd /home/faisal/CISC3140/assignments/Assignment_07/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csvn import /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn++ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[C[C[C[C[C[C[1P192.168.121.129/home/faisal/SVN/repos/laptopProject[Acd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[1Plscd laptopProject/ls[Kcd CISC3140/assignments/Assignment-07/pwd[K[1Pcdlscd laptopProject/ls[Kcd CISC3140/assignments/Assignment-07/sudo mv CISC3140/assignments/SVN /home/faisal/CISC3140/assignments/Assignmentt-07/[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C-r CISC3140/assignments/SVN /home/faisal/CISC3140/assignments/Assignment-07/[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[CCISC3140/assignments/SVN /home/faisal/CISC3140/assignments/Assignment[3P-07/[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C-r CISC3140/assignments/SVN /home/faisal/CISC3140/assignments/Assignment-07/[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ cd [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pllcd Assignment_07/..[K[3Pllcd laptopProject/ll[Kcd SVN/ls[Kmv -R SVN Assignment_07/r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd assignments/ls[Kcd CISC3140/ls[Kcd [1Plscd laptopProject/ls[Kmv *.* laptopProject/[2P laptopProject/kdir laptopProjectls[Ksvn list svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Psh faisal@192.168.121.129vn list svn+ssh://192.168.121.129/home/faisal/SVN/repos
+faisal@192.168.121.129's password: 
+desktopProject/
+laptopProject/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ svn list svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Psh faisal@192.168.121.129vn import /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn++ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+s[C[1Ph://192.168.121.129/home/faisal/SVN/repos/laptopProject[A /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ss[1Ph://192.168.121.129/home/faisal/SVN/repos/laptopProject[A /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh[1P://192.168.121.129/home/faisal/SVN/repos/laptopProject[A /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh:[1P//192.168.121.129/home/faisal/SVN/repos/laptopProject[A /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh:/[C[1P192.168.121.129/home/faisal/SVN/repos/laptopProject[A /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh://[1P192.168.121.129/home/faisal/SVN/repos/laptopProject[Ac /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[Ah /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh:[C/192.168.121.129/home/faisal/SVN/repos/laptopProject[Ae /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[Ac /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[Ak /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[Ao /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+[Csh://192.168.121.129/home/faisal/SVN/repos/laptopProject[Au /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[At /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[A[C /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[A/home/faisal/CISC3140/assignments/Assignment_07/laptopProject sv[1Pn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[A[Chome/faisal/CISC3140/assignments/Assignment_07/laptopProject svn[1P+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[Aome/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+[1Pssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[Ame/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+s[C[1Ph://192.168.121.129/home/faisal/SVN/repos/laptopProject[Ae/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ss[1Ph://192.168.121.129/home/faisal/SVN/repos/laptopProject[A[C/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh[1P://192.168.121.129/home/faisal/SVN/repos/laptopProject[A[C[Cfaisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh:[1P//192.168.121.129/home/faisal/SVN/repos/laptopProject[A[C[C[Caisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh:/[C[1P192.168.121.129/home/faisal/SVN/repos/laptopProject[A[C[C[C[Cisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh://[1P192.168.121.129/home/faisal/SVN/repos/laptopProject[A[C[C[C[C[Csal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh://1[1P92.168.121.129/home/faisal/SVN/repos/laptopProject[A[C[C[C[C[C[Cal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh://19[1P2.168.121.129/home/faisal/SVN/repos/laptopProject[A[C[C[C[C[C[C[Cl/CISC3140/assignments/Assignment_07/laptopProject svn+ssh://192[1P.168.121.129/home/faisal/SVN/repos/laptopProject[A[C[C[C[C[C[C[C[C/CISC3140/assignments/Assignment_07/laptopProject svn+ssh://192.[1P168.121.129/home/faisal/SVN/repos/laptopProject[A[C[C[C[C[C[C[C[C[CCISC3140/assignments/Assignment_07/laptopProject svn+ssh://192.1[1P68.121.129/home/faisal/SVN/repos/laptopProject[A[C[C[C[C[C[C[C[C[C[CISC3140/assignments/Assignment_07/laptopProject svn+ssh://192.16[1P8.121.129/home/faisal/SVN/repos/laptopProject[A[C[C[C[C[C[C[C[C[C[C[CSC3140/assignments/Assignment_07/laptopProject svn+ssh://192.168[1P.121.129/home/faisal/SVN/repos/laptopProject[A[C[C[C[C[C[C[C[C[C[C[C[CC3140/assignments/Assignment_07/laptopProject svn+ssh://192.168.[1P121.129/home/faisal/SVN/repos/laptopProject[A[C[C[C[C[C[C[C[C[C[C[C[C[C3140/assignments/Assignment_07/laptopProject svn+ssh://192.168.1[1P21.129/home/faisal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C140/assignments/Assignment_07/laptopProject svn+ssh://192.168.12[1P1.129/home/faisal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C40/assignments/Assignment_07/laptopProject svn+ssh://192.168.121[1P.129/home/faisal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C0/assignments/Assignment_07/laptopProject svn+ssh://192.168.121.[1P129/home/faisal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C/assignments/Assignment_07/laptopProject svn+ssh://192.168.121.1[1P29/home/faisal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cassignments/Assignment_07/laptopProject svn+ssh://192.168.121.12[1P9/home/faisal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cssignments/Assignment_07/laptopProject svn+ssh://192.168.121.129[1P/home/faisal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cignments/Assignment_07/laptopProject svn+ssh://192.168.121.129/[1Phome/faisal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cignments/Assignment_07/laptopProject svn+ssh://192.168.121.129/h[1Pome/faisal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cgnments/Assignment_07/laptopProject svn+ssh://192.168.121.129/ho[1Pme/faisal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cnments/Assignment_07/laptopProject svn+ssh://192.168.121.129/hom[1Pe/faisal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cments/Assignment_07/laptopProject svn+ssh://192.168.121.129/home[1P/faisal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cents/Assignment_07/laptopProject svn+ssh://192.168.121.129/home/[1Pfaisal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cnts/Assignment_07/laptopProject svn+ssh://192.168.121.129/home/f[1Paisal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cts/Assignment_07/laptopProject svn+ssh://192.168.121.129/home/fa[1Pisal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cs/Assignment_07/laptopProject svn+ssh://192.168.121.129/home/fai[1Psal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C/Assignment_07/laptopProject svn+ssh://192.168.121.129/home/fais[1Pal/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[CAssignment_07/laptopProject svn+ssh://192.168.121.129/home/faisa[1Pl/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cssignment_07/laptopProject svn+ssh://192.168.121.129/home/faisal[1P/SVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cignment_07/laptopProject svn+ssh://192.168.121.129/home/faisal/[1PSVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cignment_07/laptopProject svn+ssh://192.168.121.129/home/faisal/S[1PVN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cgnment_07/laptopProject svn+ssh://192.168.121.129/home/faisal/SV[1PN/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cnment_07/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN[1P/repos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cment_07/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/[1Prepos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cent_07/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/r[1Pepos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cnt_07/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/re[1Ppos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Ct_07/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/rep[1Pos/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C_07/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/repo[1Ps/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C07/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos[1P/laptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C7/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/[1PlaptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/l[1PaptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[ClaptopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/la[1PptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[CaptopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/lap[1PtopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[CptopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/lapt[1PopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[CtopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/lapto[1PpProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[CopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptop[1PProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[CpProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopP[1Project[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[CProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopPr[1Poject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Croject svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopPro[1Pject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Coject svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProj[1Pect[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cject svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProje[1Pct[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cect svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProjec[1Pt[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cct svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[K[A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Ct svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psvn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CBsvn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject [A]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[50Psh faisal@192.168.121.129
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvn list svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd..
+cd..: command not found
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ cd Assignment_07/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ ls
+[0m[34;42mlaptopProject[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ lscd Assignment_07/..[Ksvn list svn+ssh://192.168.121.129/home/faisal/SVN/repos[1P svn+ssh://192.168.121.129/home/faisal/SVN/repos[1P svn+ssh://192.168.121.129/home/faisal/SVN/repos[1P svn+ssh://192.168.121.129/home/faisal/SVN/repos[1P svn+ssh://192.168.121.129/home/faisal/SVN/reposc svn+ssh://192.168.121.129/home/faisal/SVN/reposh svn+ssh://192.168.121.129/home/faisal/SVN/repose svn+ssh://192.168.121.129/home/faisal/SVN/reposc svn+ssh://192.168.121.129/home/faisal/SVN/reposk svn+ssh://192.168.121.129/home/faisal/SVN/reposp svn+ssh://192.168.121.129/home/faisal/SVN/repos[1P svn+ssh://192.168.121.129/home/faisal/SVN/reposo svn+ssh://192.168.121.129/home/faisal/SVN/reposu svn+ssh://192.168.121.129/home/faisal/SVN/repost svn+ssh://192.168.121.129/home/faisal/SVN/repos[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/d esktopProject
+faisal@192.168.121.129's password: 
+A    desktopProject/hello.txt
+A    desktopProject/test.txt
+Checked out revision 2.
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ ls
+[0m[34;42mdesktopProject[0m  [34;42mlaptopProject[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ cd laptopProject/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ ls
+Main.java  method.java  test1.txt  test2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ mk [Kdir trunk branches tags
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ ls
+Main.java  [0m[34;42mbranches[0m  method.java  [34;42mtags[0m  test1.txt  test2.txt  [34;42mtrunk[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ mv test.*[K[K*.* *.jav trunk/
+mv: cannot stat '*.jav': No such file or directory
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ ll
+total 0
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:20 [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:19 [34;42m..[0m/
+-rw-rw-rw- 1 faisal faisal    0 Mar 11 23:53 Main.java
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:20 [34;42mbranches[0m/
+-rw-rw-rw- 1 faisal faisal    0 Mar 11 23:53 method.java
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:20 [34;42mtags[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:20 [34;42mtrunk[0m/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ llmv test*.* *.jav trunk/[Ca trunk/[1P[1P[1P[1P[1P[1P[1P[1P
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ ll
+total 0
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:21 [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:19 [34;42m..[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:20 [34;42mbranches[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:20 [34;42mtags[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:21 [34;42mtrunk[0m/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ svn status
+svn: warning: W155007: '/home/faisal/CISC3140/assignments/Assignment_07/laptopProject' is not a working copy
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ svn update
+Skipped '.'
+svn: E155007: None of the targets are working copies
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ svn updatestatusll[Kmv *.java trunk/ll[Kmv test*.* *.jav trunk/ls[Kmkdir trunk branches tagsls[Kcd laptopProject/ls[Ksvn checkout svn+ssh://192.168.121.129/home/faisaal/SVN/repos/desktopProject[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csvn checkout svn+ssh://192.168.121.129/home/faisaal/SVN/repos/desktopProject[1PtopProject[1PtopProject[1PtopProject[1PtopProjectltopProjectatopProjectptopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kcd ..
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ ls
+[0m[34;42mdesktopProject[0m  [34;42mlaptopProject[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ cd desktopProject/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ ls
+hello.txt  test.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ touch testfile2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ svn status
+?       testfile2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ svn add testfile2.txt 
+A         testfile2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ svn commit -m "added a test file"
+faisal@192.168.121.129's password: 
+Adding         testfile2.txt
+Transmitting file data .done
+Committing transaction...
+Committed revision 3.
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ svn commit -m "added a test file"[11Padd testfile2.txt [12Pstatustouch testfile2.txtls[Kcd desktopProject/ls[Kcd desktopProject/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksvn update
+Updating '.':
+faisal@192.168.121.129's password: 
+At revision 3.
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ ls
+hello.txt  test.txt  testfile2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ ls
+hello.txt  test.txt  testfile2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ lssvn update
+Updating '.':
+faisal@192.168.121.129's password: 
+At revision 3.
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ ls
+hello.txt  test.txt  testfile2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ lssvn updatels[Ksvn updatecommit -m "added a test file"[11Padd testfile2.txt [12Pstatustouch testfile2.txtls[Kcd desktopProject/ls[Kcd ..svn updatestatusll[Kmv *.java trunk/ll[Kmv test*.* *.jav trunk/ls[Kmkdir trunk branches tagsls[Kcd laptopProject/ls[Ksvn checkout svn+ssh://192.168.121.129/home/faissal/SVN/repos/laptopProject[C[1PProject[1PProject[1PProject[1PProject[1PProject[1PProjectdProjecteProjectsProjectkProjecttProjectoProjectpProject
+faisal@192.168.121.129's password: 
+A    desktopProject/hello.txt
+A    desktopProject/test.txt
+A    desktopProject/testfile2.txt
+Checked out revision 3.
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ ls
+[0m[34;42mdesktopProject[0m  hello.txt  test.txt  testfile2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ rm -r desktopProject/[K
+rm: remove write-protected regular file 'desktopProject/.svn/pristine/39/394592a005af0389fd0e5ee3a6019c52dc3b5be1.svn-base'? y
+rm: remove write-protected regular file 'desktopProject/.svn/pristine/a0/a0b65939670bc2c010f4d5d6a0b3e4e4590fb92b.svn-base'? yes
+rm: remove write-protected regular empty file 'desktopProject/.svn/pristine/da/da39a3ee5e6b4b0d3255bfef95601890afd80709.svn-base'? yes
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ ls
+hello.txt  test.txt  testfile2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ lsrm -r desktopProjectls[Ksvn checkout svn+ssh://192.168.121.129/home/faissal/SVN/repos/desktopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csvn update
+Updating '.':
+faisal@192.168.121.129's password: 
+At revision 3.
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ ls
+hello.txt  test.txt  testfile2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ lssvn update
+Updating '.':
+faisal@192.168.121.129's password: 
+A    testfile3.txt
+Updated to revision 4.
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ ls
+hello.txt  test.txt  testfile2.txt  testfile3.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/desktopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/desktopProject[00m$ cd ..
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ ls
+[0m[34;42mdesktopProject[0m  [34;42mlaptopProject[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ ls
+[0m[34;42mdesktopProject[0m  [34;42mlaptopProject[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ svn add laptopProject/[K
+svn: E155007: '/home/faisal/CISC3140/assignments/Assignment_07' is not a working copy
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ cd laptopProject/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ cd laptopProject/svn add laptopProject[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[0m[34;42mbranches[0m  [34;42mtags[0m  [34;42mtrunk[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ svn add *
+svn: E155007: '/home/faisal/CISC3140/assignments/Assignment_07/laptopProject' is not a working copy
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ cd ..
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ cd ..svn add *ls[Kcd laptopProject/svn add laptopProjectls[Kcd ..[3Plssvn updatels[Ksvn updatels[Krm -r desktopProjectls[Ksvn checkout svn+ssh://192.168.121.129/home/faisal/SVN/repos/deesktopProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csvn checkout svn+ssh://192.168.121.129/home/faisal/SVN/repos/deesktopProject[1PtopProject[C[C[1PtopProject[C[1PtopProject[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cto[1PpProject[A]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CltopProjectatopProject[CptopProject[C[C
+faisal@192.168.121.129's password: 
+faisal@192.168.121.129's password: 
+svn: E170013: Unable to connect to a repository at URL 'svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject'
+svn: E210002: To better debug SSH connection problems, remove the -q option from 'ssh' in the [tunnels] section of your Subversion configuration file.
+svn: E210002: Network connection closed unexpectedly
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ ls
+[0m[34;42mdesktopProject[0m  [34;42mlaptopProject[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ mv laptopProject/[K lll[K[KaptopProject/[C[C[1P/[1P/[1P/[1P/[1P/[1P/[K
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ ll
+total 0
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:42 [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:13 [34;42m..[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:39 [34;42mdesktopProject[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 12 00:21 [34;42mlaptopP[0m/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ llmv laptopProject laptopPls[Ksvn checkout svn+ssh://192.168.121.129/home/faisal/SVN/repos/laaptopProject[C[C[C[C[C[C[C[C[C[C
+faisal@192.168.121.129's password: 
+A    laptopProject/Main.java
+A    laptopProject/method.java
+A    laptopProject/test1.txt
+A    laptopProject/test2.txt
+Checked out revision 4.
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ ls
+[0m[34;42mdesktopProject[0m  [34;42mlaptopP[0m  [34;42mlaptopProject[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ mv [K[K[Krm -r laptopP
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ ls
+[0m[34;42mdesktopProject[0m  [34;42mlaptopProject[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ cd laptopProject/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ ls
+Main.java  method.java  test1.txt  test2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ mkdir trunk ba[Krac[Knches log[K[K[Ktags
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ mv *[Ktest*.* java.* [K[K[K*java.java[C[C[C[C trunk/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ ls
+[0m[34;42mbranches[0m  [34;42mtags[0m  [34;42mtrunk[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ svn status
+!       Main.java
+?       branches
+!       method.java
+?       tags
+!       test1.txt
+!       test2.txt
+?       trunk
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ svn add *
+A         branches
+A         tags
+A         trunk
+A         trunk/Main.java
+A         trunk/test1.txt
+A         trunk/test2.txt
+A         trunk/method.java
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ sn[Kvn commit -m "chenged the dires[Kctory structure"
+faisal@192.168.121.129's password: 
+Adding         branches
+Adding         tags
+Adding         trunk
+Adding         trunk/Main.java
+Adding         trunk/method.java
+Adding         trunk/test1.txt
+Adding         trunk/test2.txt
+Transmitting file data ....done
+Committing transaction...
+Committed revision 5.
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ script -q
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ ls
+[0m[34;42mbranches[0m  [34;42mtags[0m  [34;42mtrunk[0m  typescript
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ lsexitssh faisal@192.168.121.105exit[K[2Pls[K[Kscript -q
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ ls
+[0m[34;42mbranches[0m  [34;42mtags[0m  [34;42mtrunk[0m  typescript
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ rm [K[K[Kcd..
+cd..: command not found
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ cd.
+
+
+Command 'cd.' not found, did you mean:
+
+  command 'cde' from deb cde
+  command 'cd5' from deb cd5
+  command 'cdv' from deb codeville
+  command 'cdp' from deb irpas
+  command 'cdi' from deb cdo
+  command 'cdb' from deb tinycdb
+  command 'cdw' from deb cdw
+  command 'cdo' from deb cdo
+
+Try: sudo apt install <deb name>
+
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ 
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07/laptopProject[00m$ cd ..
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/Assignment_07[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/Assignment_07[00m$ cd ..
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ ls
+'Assignment 3.docx'   [0m[34;42mAssignment_06[0m   Bug_Report.docx    'Group Project_A.docx'   config.js
+ [34;42mAssignment_05[0m        [34;42mAssignment_07[0m   Company_Info.docx  'Group Project_B.docx'
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ cd ..
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ ls
+assignment7.txt  [0m[34;42massignments[0m  [34;42mclass[0m  [34;42mhome[0m
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ cat assignment7.txt 
+Script started on 2020-03-11 23:51:25-0400
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ ls
+assignment7.txt  [0m[34;42massignments[0m  [34;42mclass[0m  [34;42mhome[0m
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ cd assignments/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ ls
+'Assignment 3.docx'   [0m[34;42mAssignment_06[0m     Company_Info.docx      'Group Project_B.docx'
+ [34;42mAssignment_05[0m        Bug_Report.docx  'Group Project_A.docx'   config.js
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ c[Kmkdir Assignment_07
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ mkdir SVN
+]0;faisal@SpectreX360G: ~/CISC3140/assignments[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments[00m$ cd SVN
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ ll
+total 0
+drwxrwxrwx 1 faisal faisal 4096 Mar 11 23:52 [0m[34;42m.[0m/
+drwxrwxrwx 1 faisal faisal 4096 Mar 11 23:52 [34;42m..[0m/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ echi[Ko "hek[Kllo" > test1.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ echo "hello" > test1.txt[C[1@ [1@w[1@o[1@r[1@l[1@d[C[C[C[C[C[C[C[C[C[1P.txt2.txt[C[C[C[C
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ touch main[K[K[K[KMain.java
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ touch method.java
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ ssh faisal@192.168.121.129
+The authenticity of host '192.168.121.129 (192.168.121.129)' can't be established.
+ECDSA key fingerprint is SHA256:kAPGFPnUmlsAB8WWalPDYNRhaQ1dScEAGYcuvKuTfhI.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.121.129' (ECDSA) to the list of known hosts.
+faisal@192.168.121.129's password: 
+Linux RaspberryPiZeroFTP 4.19.66+ #1253 Thu Aug 15 11:37:30 BST 2019 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Mar 11 21:51:46 2020 from 192.168.121.129
+]0;faisal@RaspberryPiZeroFTP: ~[01;32mfaisal@RaspberryPiZeroFTP[00m:[0
+]0;faisal@RaspberryPiZeroFTP: ~/SVN/repos[01;32mfaisal@RaspberryPiZeroFTP[00m:[01;34m~/SVN/repos $[00m ls
+[0m[01;34mconf[0m  [01;34mdb[0m  format  [01;34mhooks[0m  [01;34mlocks[0m  README.txt
+]0;faisal@RaspberryPiZeroFTP: ~/SVN/repos[01;32mfaisal@RaspberryPiZeroFTP[00m:[01;34m~/SVN/repos $[00m exit
+logout
+Connection to 192.168.121.129 closed.
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ svn lsi[K[K[Klist svn+ssh://192.168.121.129/home/faisal/SVN/repos
+faisal@192.168.121.129's password: 
+desktopProject/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ ls
+Main.java  method.java  test1.txt  test2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ mkdir laptopProject
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ mv 8[K* laptopProject/
+mv: cannot move 'laptopProject' to a subdirectory of itself, 'laptopProject/laptopProject'
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ mv * laptopProject/. laptopProject/* laptopProject/
+mv: cannot stat '*.*': No such file or directory
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ ls
+[0m[34;42mlaptopProject[0m
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN[00m$ cd laptopProject/
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN/laptopProject[00m$ ll[Ks
+Main.java  method.java  test1.txt  test2.txt
+]0;faisal@SpectreX360G: ~/CISC3140/assignments/SVN/laptopProject[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140/assignments/SVN/laptopProject[00m$ cd 
+]0;faisal@SpectreX360G: ~[01;32mfaisal@SpectreX360G[00m:[01;34m~[00m$ ls
+[0m[34;42mCISC3140[0m          [01;32mOUTconnectMINT.sh[0m  [34;42mPython[0m      [01;36masst[0m           [01;32mconnectMINT.sh[0m  [01;36mhello.sh[0m
+[01;32mOUTconnectGIT.sh[0m  [01;32mOUTconnectSVN.sh[0m   [34;42mTestFolder[0m  [01;32mconnectGIT.sh[0m  [01;32mconnectSVN.sh[0m   [34;42mtemp[0m
+]0;faisal@SpectreX360G: ~[01;32mfaisal@SpectreX360G[00m:[01;34m~[00m$ lscd [1Plscd laptopProject/ls[Kmv *.* laptopProject/[2P laptopProject/kdir laptopProject]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ 
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ ls
+assignment7.txt  [0m[34;42massignments[0m  [34;42mclass[0m  [34;42mhome[0m
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ mv assignment7.txt SC[K[Kassignment7.txt [1@S[1@c[1@r[1@i[1@p[1@t[1@A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ ls
+ScriptAassignment7.txt  [0m[34;42massignments[0m  [34;42mclass[0m  [34;42mhome[0m
+]0;faisal@SpectreX360G: ~/CISC3140[01;32mfaisal@SpectreX360G[00m:[01;34m~/CISC3140[00m$ mv ass[K[K[K[K ScriptAassignment7.txt Ci[K[KCi[KIS[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Klsmv assignment7.txt ScriptAassignment7.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KScriptAassignment7.txt Ass[K[K[Kassignments/Assignment_07/
+]0;
