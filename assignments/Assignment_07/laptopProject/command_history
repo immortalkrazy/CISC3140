@@ -1,0 +1,232 @@
+ 1428  cat assignment7.txt 
+ 1429  ls
+ 1430  mv assignment7.txt ScriptAassignment7.txt 
+ 1431  ls
+ 1432  mv ScriptAassignment7.txt assignments/Assignment_07/
+ 1433  ls
+ 1434  cd assignments/Assignment_07/
+ 1435  ls
+ 1436  cd..
+ 1437  cd ..
+ 1438  git status
+ 1439  git add -A
+ 1440  git commit -m "assignment 7 for SVN server"
+ 1441  git push
+ 1442  exit
+ 1443  ls
+ 1444  script -q
+ 1445  exit
+ 1446  ls
+ 1447  cd assignments/
+ 1448  ls
+ 1449  mkdir Assignment_07
+ 1450  mkdir SVN
+ 1451  cd SVN
+ 1452  ll
+ 1453  echo "hello" > test1.txt
+ 1454  echo "hello world" > test2.txt
+ 1455  touch Main.java
+ 1456  touch method.java
+ 1457  ssh faisal@192.168.121.129
+ 1458  svn list svn+ssh://192.168.121.129/home/faisal/SVN/repos
+ 1459  ls
+ 1460  mkdir laptopProject
+ 1461  mv * laptopProject/
+ 1462  mv *.* laptopProject/
+ 1463  ls
+ 1464  cd laptopProject/
+ 1465  ls
+ 1466  cd 
+ 1467  ls
+ 1468  cd CISC3140/
+ 1469  ls
+ 1470  cd assignments/
+ 1471  ls
+ 1472  mv -r SVN Assignment_07/
+ 1473  mv -R SVN Assignment_07/
+ 1474  ls
+ 1475  cd SVN/
+ 1476  ll
+ 1477  cd laptopProject/
+ 1478  ll
+ 1479  cd ..
+ 1480  cd Assignment_07/
+ 1481  ll
+ 1482  cd 
+ 1483  sudo mv -r CISC3140/assignments/SVN /home/faisal/CISC3140/assignments/Assignment-07/
+ 1484  sudo mv CISC3140/assignments/SVN /home/faisal/CISC3140/assignments/Assignment-07/
+ 1485  cd CISC3140/assignments/Assignment-07/
+ 1486  ls
+ 1487  cd laptopProject/
+ 1488  ls
+ 1489  cd
+ 1490  pwd
+ 1491  cd CISC3140/assignments/Assignment-07/
+ 1492  ls
+ 1493  cd laptopProject/
+ 1494  ls
+ 1495  pwd
+ 1496  cd
+ 1497  svn import /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh:/192.168.121.129/home/faisal/SVN/repos/laptopProject
+ 1498  svn import /home/faisal/CISC3140/assignments/Assignment_07/laptopProject svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject
+ 1499  cd /home/faisal/CISC3140/assignments/Assignment_07/
+ 1500  ls
+ 1501  cd ..
+ 1502  ls
+ 1503  cd ..
+ 1504  ls
+ 1505  cd assignments/
+ 1506  ls
+ 1507  ll
+ 1508  cd Assignment-07/
+ 1509  ls
+ 1510  cd ..
+ 1511  cd Assignment-07/
+ 1512  ls
+ 1513  mv laptopProject ../Assignment_07/
+ 1514  ll
+ 1515  cd ..
+ 1516  rm Assignment-07
+ 1517  rm -r Assignment-07
+ 1518  ls
+ 1519  svn checkout [Bsvn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject
+ 1520  ssh faisal@192.168.121.129
+ 1521  svn list svn+ssh://192.168.121.129/home/faisal/SVN/repos
+ 1522  cd..
+ 1523  cd Assignment_07/
+ 1524  ls
+ 1525  svn checkout svn+ssh://192.168.121.129/home/faisal/SVN/repos/desktopProject
+ 1526  ls
+ 1527  cd laptopProject/
+ 1528  ls
+ 1529  mkdir trunk branches tags
+ 1530  ls
+ 1531  mv test*.* *.jav trunk/
+ 1532  ll
+ 1533  mv *.java trunk/
+ 1534  ll
+ 1535  svn status
+ 1536  svn update
+ 1537  cd ..
+ 1538  ls
+ 1539  cd desktopProject/
+ 1540  ls
+ 1541  touch testfile2.txt
+ 1542  svn status
+ 1543  svn add testfile2.txt 
+ 1544  svn commit -m "added a test file"
+ 1545  svn update
+ 1546  ls
+ 1547  svn update
+ 1548  ls
+ 1549  svn checkout svn+ssh://192.168.121.129/home/faisal/SVN/repos/desktopProject
+ 1550  ls
+ 1551  rm -r desktopProject
+ 1552  ls
+ 1553  svn update
+ 1554  ls
+ 1555  svn update
+ 1556  ls
+ 1557  cd ..
+ 1558  ls
+ 1559  svn add laptopProject
+ 1560  cd laptopProject/
+ 1561  ls
+ 1562  svn add *
+ 1563  cd ..
+ 1564  svn checkout svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject
+ 1565  ls
+ 1566  mv laptopProject laptopP
+ 1567  ll
+ 1568  svn checkout svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject
+ 1569  ls
+ 1570  rm -r laptopP
+ 1571  ls
+ 1572  cd laptopProject/
+ 1573  ls
+ 1574  mkdir trunk branches tags
+ 1575  mv test*.* *.java trunk/
+ 1576  ls
+ 1577  svn status
+ 1578  svn add *
+ 1579  svn commit -m "chenged the directory structure"
+ 1580  script -q
+ 1581  exit
+ 1582  ll
+ 1583  svn
+ 1584  svn --version --quite
+ 1585  sudo apt-get install subversion
+ 1586  sudo apt-get install libapache2-svn
+ 1587  asst
+ 1588  cd asst
+ 1589  ll
+ 1590  cd /
+ 1591  cd 
+ 1592  ll
+ 1593  cd CISC3140/
+ 1594  ll
+ 1595  cd assignments/
+ 1596  ls
+ 1597  cd Assignment_06/
+ 1598  ls
+ 1599  cd Scheme/
+ 1600  ll
+ 1601  cd hw_06/
+ 1602  ls
+ 1603  cd ..
+ 1604  cd Assignment_05/
+ 1605  ls
+ 1606  cd part1/
+ 1607  ls
+ 1608  cd ..
+ 1609  Script assignment7.txt
+ 1610  script assignment7.txt
+ 1611  ls
+ 1612  cd assignments/
+ 1613  ls
+ 1614  cd Assignment_0
+ 1615  cd Assignment_07/
+ 1616  ls
+ 1617  exit
+ 1618  ls
+ 1619  cd Cisc
+ 1620  cd CISC3140/
+ 1621  cd assignments/Assignment_07/
+ 1622  ls
+ 1623  cd laptopProject/
+ 1624  ls
+ 1625  svn update
+ 1626  ls
+ 1627  svn status
+ 1628  svn add typescript 
+ 1629  svn commit -m "final touch"
+ 1630  git status
+ 1631  git add -A
+ 1632  git commit -m "final touch on assgmt 7"
+ 1633  git push
+ 1634  exit
+ 1635  cd CISC3140/
+ 1636  ls
+ 1637  cd assignments/
+ 1638  cd Assignment_0
+ 1639  cd Assignment_07/
+ 1640  ls
+ 1641  svn update
+ 1642  cd laptopProject/
+ 1643  svn update
+ 1644  ls
+ 1645  cd trunk/
+ 1646  ls
+ 1647  nano README.txt
+ 1648  svn status
+ 1649  svn add README.txt 
+ 1650  svn status
+ 1651  svn commit -m "added README.txt"
+ 1652  git status
+ 1653  cd 
+ 1654  cd CISC3140/
+ 1655  git status
+ 1656  git add -A
+ 1657  git status
+ 1658  git commit -m "updated package"
+ 1659  git push

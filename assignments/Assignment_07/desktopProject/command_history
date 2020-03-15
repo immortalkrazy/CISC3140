@@ -1,0 +1,213 @@
+  130  mkdir myProjects
+  131  rm myProjects/
+  132  rm  -r myProjects/
+  133  ls
+  134  ls -la
+  135  nano .bashrc
+  136  ll
+  137  clear
+  138  ll
+  139  mkdir myProjects/first_SVN_Project
+  140  mk myProjects
+  141  mkdir myProjects
+  142  ls -la
+  143  mkdir myProjects/first_SVN_Project
+  144  cd myProjects/first_SVN_Project
+  145  touch firstFile.txt secondFile.txt
+  146  ls
+  147  svn
+  148  sudo apt-get install subversion
+  149  cd
+  150  sudo rm  -R myProjects/
+  151  ls
+  152  ll
+  153  exit
+  154  java --version
+  155  exit
+  156  ifconfig
+  157  which git
+  158  cd /usr/bin/git
+  159  cd /usr/bin/
+  160  ls
+  161  ssh pi@192.168.121.122
+  162  exit
+  163  ll
+  164  exit
+  165  svn
+  166  sudo apt-get install subvesion
+  167  sudo apt-get install subversion
+  168  sudo apt-get install libapache2-mod-svn
+  169  sudo apt-get install libapache2-svn
+  170  svn
+  171  svn help
+  172  ll
+  173  mkdir SVN_Project
+  174  cd SVN_Project/
+  175  svn checkout https://192.168.121.129/home/faisal/usbdrv/svn/.svnrepos/MyRepo/MyProject/trunk MyWorkingCopy
+  176  svn checkout svn://192.168.121.129/home/faisal/usbdrv/svn/.svnrepos/MyRepo/MyProject/trunk MyWorkingCopy
+  177  svn+ssh checkout svn://192.168.121.129/home/faisal/usbdrv/svn/.svnrepos/MyRepo/MyProject/trunk MyWorkingCopy
+  178  svn+ssh //192.168.121.129/home/faisal/usbdrv/svn/.svnrepos/MyRepo/MyProject/trunk MyWorkingCopy
+  179  svn help
+  180  whoami
+  181  svn list svn+ssh://192.168.121.129/home/faisal/usbdrv/svn/.svnrepos/MyRepo/MyProject/trunk
+  182  ssh pi@192.168.121.129
+  183  svn list svn+ssh://192.168.121.129/home/faisal/usbdrv/svn/.svnrepos/MyRepo/MyProject/trunk
+  184  svn list svn+ssh://192.168.121.129/home/faisal/usbdrv/svn/.svnrepos/MyRepo/
+  185  svn list svn+ssh://192.168.121.129/home/faisal/usbdrv/svn/.svnrepos
+  186  svn list svn+ssh://192.168.121.129/home/faisal/usbdrv/svn/.svnrepos/
+  187  svn checkout svn+ssh://192.168.121.129/home/faisal/usbdrv/svn/.svnrepos/MyRepo/MyProject/trunk
+  188  svn checkout svn+ssh://192.168.121.129/home/faisal/usbdrv/SVN/.svnrepos/MyRepo/
+  189  svn checkout svn+ssh://192.168.121.129/home/faisal/usbdrv/SVN/.svnrepos/MyRepo
+  190  svn list svn+ssh://192.168.121.129/home/faisal/usbdrv/SVN/.svnrepos/
+  191  svn list svn+ssh://192.168.121.129/home/faisal/usbdrv/SVN/MyProjects
+  192  svn list svn+ssh://192.168.121.129/home/faisal/usbdrv/SVN/MyProjects/
+  193  ls
+  194  ll
+  195  cd
+  196  ll
+  197  cd /var/
+  198  ll
+  199  cd
+  200  pwd
+  201  whoami
+  202  cd /var/svn
+  203  cd /var/
+  204  ll
+  205  cd 
+  206  svn --version
+  207  svn --version --quite
+  208  svn --version --quiet
+  209  ls
+  210  cd
+  211  ll
+  212  cd svn
+  213  cd SVN_Project/
+  214  ll
+  215  echo "helloWorld!" > hello.txt
+  216  echo "Hello World!" > test.txt
+  217  ll
+  218  cd
+  219  ll
+  220  cd .subversion/
+  221  ll
+  222  cd
+  223  svn list svn+ssh://192.168.121.129/home/faisal/usbdrv/sharedSVN/repos
+  224  ll
+  225  cd SVN_Project/
+  226  ll
+  227  mkdir project01
+  228  cp *.txt project01/
+  229  ll
+  230  cd project01/
+  231  ll
+  232  cd ..
+  233  rm *.txt
+  234  ll
+  235  cd project01/
+  236  ll
+  237  cd 
+  238  svn import SVN_Project/project01 \ svn+ssh://home/pi/usbdrv/sharedSVN/repos/desktopProject
+  239  svn import SVN_Project/project01 http://home/pi/usbdrv/sharedSVN/repos/desktopProject
+  240  svn import SVN_Project/project01 svn+ssh://home/pi/usbdrv/sharedSVN/repos/desktopProject
+  241  svn import SVN_Project/project01 ://home/pi/usbdrv/sharedSVN/repos/desktopProject
+  242  svn import SVN_Project/project01 svn+ssh://192.168.121.129/home/pi/usbdrv/sharedSVN/repos/desktopProject
+  243  svn checkout svn+ssh://192.168.121.129/home/faisal/SVN/repos/desktopProject
+  244  svn list svn+ssh://192.168.121.129/home/faisal/SVN/repos
+  245  ll
+  246  svn list svn+ssh://192.168.121.129/home/faisal/SVN/repos
+  247  cd SVN_Project/
+  248  ls
+  249  cd project01/
+  250  ls
+  251  svn update
+  252  svn add *
+  253  ls
+  254  Asvn import SVN_Project/project01 svn+ssh://192.168.121.129/home/pi/usbdrv/sharedSVN/repos/desktopProject
+  255  cd ..
+  256  Asvn checkout svn+ssh://192.168.121.129/home/pi/usbdrv/sharedSVN/repos/desktopProject
+  257  svn checkout svn+ssh://192.168.121.129/home/pi/usbdrv/sharedSVN/repos/desktopProject
+  258  svn checkout svn+ssh://192.168.121.129/home/faisalSVN/repos/desktopProject
+  259  svn checkout svn+ssh://192.168.121.129/home/faisal/SVN/repos/desktopProject
+  260  ls
+  261  cd desktopProject/
+  262  ls
+  263  touch testfile3.txt
+  264  ls
+  265  svn status
+  266  svn add testfile3.txt 
+  267  svn commit -m "added a test file from desktop"
+  268  cd ..
+  269  cd desktopProject/
+  270  svn updtae
+  271  svn update
+  272  ls
+  273  cd ..
+  274  cd lap
+  275  ls
+  276  cd project01/
+  277  ls
+  278  cd ..
+  279  rm -r project01
+  280  ls
+  281  svn checkout svn+ssh://192.168.121.129/home/faisal/SVN/repos/laptopProject
+  282  ls
+  283  cd laptopProject/
+  284  ls
+  285  cd trunk/
+  286  ls
+  287  ls -la
+  288  cd ..
+  289  ls
+  290  rm te*.* *.Ja*
+  291  rm te*.* *.ja*
+  292  rm te*.txt *.ja*
+  293  rm te*.txt *.java
+  294  ls
+  295  svn status
+  296  svn add *
+  297  svn add *.*
+  298  svn status
+  299  svn add *.java
+  300  svn add Main.java
+  301  svn commit -m "deleted extra files"
+  302  ls
+  303  svn status
+  304  svn delete *.java
+  305  svn delete --force *.java
+  306  ls
+  307  svn status
+  308  svn update
+  309  ls
+  310  svn delete Main.java method.java test1.txt test2.txt 
+  311  svn commit -m "deleted extra files"
+  312  ls
+  313  exit
+  314  cd SVN_Project/
+  315  ls
+  316  cd laptopProject/
+  317  svn update 
+  318  ls
+  319  exit
+  320  ls
+  321  ll
+  322  rm svn-co*.tmp
+  323  ll
+  324  cd SVN_Project/
+  325  ll
+  326  exit
+  327  history
+  328  ls
+  329  cd SVN_Project/
+  330  ls
+  331  cd desktopProject/
+  332  svn status
+  333  svn
+  334  ls
+  335  svn update
+  336  svn status
+  337  cd
+  338  cd SVN_Project/desktopProject/
+  339  history
+  340  history -help
+  341  history -h
+  342  history > command_history
